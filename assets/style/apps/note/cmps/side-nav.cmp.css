@@ -1,0 +1,26 @@
+.nav-container {
+    width: 100px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 60%;
+    margin-block: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.nav-icon:hover:not(.active) {
+    background-color: rgba(95, 99, 104, 0.157);
+}
+
+.active {
+    background-color: #feefc3;
+}

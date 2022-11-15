@@ -1,0 +1,67 @@
+.add-note {
+    width: 600px;
+    min-height: 50px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%), 0 3px 5px rgb(0 0 0 / 20%);
+    border-radius: 8px;
+    margin: 32px auto 16px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.add-note input {
+    border: none;
+    padding: 0;
+}
+
+.add-note input:focus-visible {
+    outline: none;
+}
+
+.add-note-title {
+    min-height: 43px;
+}
+
+.add-note-title input {
+    font-family: google-sans;
+    letter-spacing: .00625em;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding-bottom: 12px;
+    padding: 10px 15px;
+    width: 100%;
+    overflow: visible;
+}
+
+.add-note-content input {
+    font-family: roboto-bold;
+    letter-spacing: .01428571em;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    padding: 4px 16px 12px 16px;
+    text-overflow: ellipsis;
+    width: 100%;
+    background-image: url();
+}
+
+.file-input {
+    display: none;
+}
+
+
+/* .action-container {
+    display: none;
+}
+
+.focus-content {
+    display: none;
+}
+
+.add-note:focus-within .add-note-title {
+    display: block;
+}
+
+.add-note:focus-within .action-container {
+    display: inline-flex;
+} */

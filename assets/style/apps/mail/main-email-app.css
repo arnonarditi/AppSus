@@ -1,0 +1,31 @@
+@import './e-cmps/email-filter.cmp.css';
+@import './e-cmps/email-folder-list.cmp.css';
+@import './e-cmps/email-list.cmp.css';
+@import './e-cmps/email-preview.cmp.css';
+@import './e-cmps/email-details.cmp.css';
+@import './e-cmps/email-compose.cmp.css';
+@import './e-cmps/add-label.cmp.css';
+
+.email-app {
+    background-color: white;
+    background-color: #f6f8fc;
+    width: 100%;
+}
+
+.main-content {
+    width: 100%;
+
+    background-color: white;
+    margin-inline-end: 13px;
+    margin-top: 15px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding-bottom: 12px;
+}
+
+@media (max-width:350px) {
+    .main-content {
+        margin-inline-end: 0;
+    }
+}
+

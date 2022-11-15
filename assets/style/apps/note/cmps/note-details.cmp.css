@@ -1,0 +1,35 @@
+.note-details {
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    background: #ffff;
+    transform: translate(-50%, -48%);
+    box-shadow: 0 0 0 100vh #00000059;
+    /* height: 80%; */
+    /* overflow: auto; */
+    width: 600px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    /* margin-block: 16px; */
+    color: #202124;
+    /* display: grid;
+    grid-template-rows: 60px auto 40px;
+    grid-template-columns: 1fr; */
+}
+
+.note-details .note-title {
+    font-size: 1.375rem;
+    padding-bottom: 12px;
+    padding-top: 16px;
+}
+
+.note-details .note-content {
+    font-size: 1rem;
+    letter-spacing: .00625em;
+    line-height: 1.5rem;
+}
+
+.note-details .note-actions {
+    opacity: 1;
+    margin-top: 4px;
+}
